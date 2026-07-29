@@ -14,7 +14,7 @@ const projects = [
     badgeColor: "#F2A94E",
     title: "AI-Powered Tourism & Travel Portal",
     description:
-      "A full-stack travel platform built as my final year project. Users can plan trips and get recommendations, while two ML-driven features handle the harder parts: an OCR pipeline that verifies travel documents automatically, and an NLP chatbot that answers travel questions and assists with planning.",
+      "A full-stack travel platform built as my final year project. I designed the REST API layer and client-server architecture end to end — the same request/response and auth patterns I now build with Express and MongoDB — while two ML-driven features handled the harder parts: an OCR pipeline that verifies travel documents automatically, and an NLP chatbot that answers travel questions and assists with planning.",
     features: [
       { icon: Plane, text: "End-to-end trip planning workflow" },
       { icon: ScanLine, text: "OCR-based automated document verification" },
@@ -30,7 +30,7 @@ const projects = [
     badgeColor: "#34D399",
     title: "Gym Management System",
     description:
-      "A gym management interface built in my 5th semester with plain HTML, CSS and JavaScript — covering member sign-up, membership plans, and trainer/schedule info end to end on the frontend.",
+      "A gym management interface built in my 5th semester with plain HTML, CSS and JavaScript — the vanilla-JS foundation (DOM manipulation, state handling, event-driven UI) that I later carried into component-based React development. Covers member sign-up, membership plans, and trainer/schedule info end to end on the frontend.",
     features: [
       { icon: UserPlus, text: "Member registration & profiles" },
       { icon: Dumbbell, text: "Membership plan selection" },
@@ -46,7 +46,7 @@ const projects = [
     badgeColor: "#6E8CFF",
     title: "Employee Management System",
     description:
-      "A desktop CRUD application for managing employee records — add, update, search and remove staff, track departments, and keep basic attendance/salary info, backed by a relational database.",
+      "A CRUD application for managing employee records — add, update, search and remove staff, track departments, and keep basic attendance/salary info. Building the data layer and query logic here is where I picked up the relational-modeling instincts I now apply when designing MongoDB schemas and Mongoose models for MERN projects.",
     features: [
       { icon: Users2, text: "Employee records (add / update / delete)" },
       { icon: Building2, text: "Department & role management" },
